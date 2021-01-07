@@ -13,7 +13,7 @@ build_image()
 {
     log "INFO: Starting docker build of $1"
 
-    /usr/bin/docker build --build-arg BASE_IMAGE_NAME=${BASE_IMAGE} -t ${Build_Img} . --no-cache --force-rm
+    /usr/bin/docker build --build-arg BASE_IMAGE_NAME=${BaseImage} -t ${BuildImage} . --no-cache --force-rm
     if [ $? -ne "0" ]; then
       log "ERROR: Docker build failed"
       exit
