@@ -1,8 +1,7 @@
 #!/bin/bash
 # This is an Sample project to build BaseImage needed for CICD of
-# JAVA Web Application used for Wezva Technologies
-# Author: Adam M       # Email: scmlearningcentre@gmail.com
-# Phone: 9739110917    # www.wezva.com
+# JAVA Web Application used for vijay Technologies
+
 
 # Setup logging
 log()
@@ -24,7 +23,7 @@ build_image()
 push_image()
 {
     log "INFO: Login to the docker registry"
-        /usr/bin/docker login -u adamtravis -p $paswd
+        /usr/bin/docker login -u vijay2181 -p vijay4444
 
         if [ $? -ne "0" ]; then
         log "ERROR: Docker registry login failed"
@@ -34,8 +33,8 @@ push_image()
     fi
 
         log "INFO: Starting to push image to the repository"
-    /usr/bin/docker tag ${Build_Img} adamtravis/${Build_Img}
-    /usr/bin/docker push adamtravis/${Build_Img}
+    /usr/bin/docker tag ${Build_Img} vijay2181/${Build_Img}
+    /usr/bin/docker push vijay2181/${Build_Img}
 
     if [ $? -ne "0" ]; then
         log "ERROR: Docker Push command failed"
