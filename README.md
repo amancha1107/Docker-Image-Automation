@@ -11,4 +11,4 @@ echo "Completed image build for VIJAY CICD ..."
   BuildImage="wildfly"
 
 * Source Code Management, git repo as "https://gitlab.com/scmlearningcentre/demo.git"
-* Build when a change is pushed to GitLab under "Build Triggers"
+* Build when a change is pushed to GitLab under "Build Triggers"..
