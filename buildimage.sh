@@ -1,6 +1,6 @@
 #!/bin/bash
-# This is an Sample project to build BaseImage needed for CICD of
-# JAVA Web Application used for vijay Technologies
+# This is an Sample project to build BaseImage needed for CICD 
+# JAVA Web Application used for vijay CICD 
 
 
 # Setup logging
