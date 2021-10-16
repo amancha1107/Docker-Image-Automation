@@ -23,7 +23,7 @@ build_image()
 push_image()
 {
     log "INFO: Login to the docker registry"
-        /usr/bin/docker login -u vijay2181 -p vijay4444
+        /usr/bin/docker login -u vijay2181 -p 
 
         if [ $? -ne "0" ]; then
         log "ERROR: Docker registry login failed"
