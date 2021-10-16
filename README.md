@@ -9,6 +9,4 @@ echo "Completed image build for VIJAY CICD ..."
 * Set Job Parameters i.e string parameter for BaseImage, BuildImage & password parameter for registrypassword & set the following as default values
   BaseImage="jboss/base-jdk:11"
   BuildImage="wildfly"
-
-* Source Code Management, git repo as "https://gitlab.com/scmlearningcentre/demo.git"
 * Build when a change is pushed to GitLab under "Build Triggers"..
